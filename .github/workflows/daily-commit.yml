@@ -21,8 +21,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "YOUR_GITHUB_USERNAME"
-          git config --global user.email "YOUR_GITHUB_VERIFIED_EMAIL@example.com"
+          git config --global user.name "romit077-hub"
+          git config --global user.email "trivediromit7@gmail.com"
           git add last_updated.txt
           git commit -m "chore: automated daily activity $(date -u +'%Y-%m-%d')" || exit 0
           git push
